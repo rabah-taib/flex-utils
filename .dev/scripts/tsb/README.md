@@ -26,9 +26,10 @@ Automatically create barrel files so you never forget to export some files.
    pnpm script tsb
    ```
 4. See the result:
+
    ```ts
    // @flexTsb
-   
+
    export * from "./string";
    export * from "./number";
    // ...
